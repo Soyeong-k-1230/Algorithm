@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../../input.txt', 'r')
+sys.stdin = open('../01.Bronze/input.txt', 'r')
 ans = 0
 for tc in range(int(input())):
     words = list(input())

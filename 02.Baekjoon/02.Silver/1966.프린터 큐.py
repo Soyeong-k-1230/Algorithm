@@ -1,6 +1,6 @@
 from collections import deque
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../알고리즘 분류/02.큐/input.txt', 'r')
 
 for tc in range(int(input())):
     N, M = map(int, input().split())

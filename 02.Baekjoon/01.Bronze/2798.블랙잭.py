@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../알고리즘 분류/03.백트래킹/input.txt', 'r')
 
 ans = -1
 N, M = map(int, input().split())

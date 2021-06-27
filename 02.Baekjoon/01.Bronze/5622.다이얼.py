@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../../input.txt', 'r')
+sys.stdin = open('input.txt', 'r')
 
 alpha = {
     'A': 2, 'B': 2, 'C': 2, 'D': 3, 'E': 3, 'F': 3, 'G': 4, 'H': 4, 'I': 4, 'J': 5, 'K': 5, 'L': 5,

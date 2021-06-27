@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../../input.txt', 'r')
+sys.stdin = open('input.txt', 'r')
 words = input().strip()
 if words != '':
     print(len(words.split(' ')))
