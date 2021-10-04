@@ -1,0 +1,25 @@
+import sys
+sys.stdin = open('input.txt', 'r')
+
+N = int(input())
+st = list(map(int, input()))
+ed = list(map(int, input()))
+ans = -1
+
+def change(arr, n):
+    if n - 1 >= 0:
+        arr[n - 1] = 1 >> arr[n - 1]
+    arr[n] = 1 >> arr[n]
+    if n + 1 < N:
+        arr[n + 1] = 1 >> arr[n + 1]
+    return arr
+
+
+if st == ed:
+    print(-1)
+else:
+    for i in range(N):
+        if st == ed:
+            break
+
+
